@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, this.title = 'Default'}) : super(key: key);
 
   final String title;
 
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Text(
                   '${snapshot.data}',
-                  style: Theme.of(context).textTheme.display1,
+                  style: Theme.of(context).textTheme.headlineLarge,
                 ),
               ],
             );
