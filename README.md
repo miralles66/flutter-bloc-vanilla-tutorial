@@ -1,3 +1,6 @@
+
+![badge](https://gist.githubusercontent.com/miralles66/0f75fb89680545189ab8a0c4327c5d45/raw/fp_mobile_coverage.svg)
+
 # bloc_vanilla_tut
 
 A new Flutter project.
